@@ -6,9 +6,6 @@ email: false
 jdk:
 - openjdk8
 
-install:
-- ant resolve-dependencies
-
 script: ant build
 
 after_success:
