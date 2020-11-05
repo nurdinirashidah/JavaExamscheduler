@@ -6,8 +6,6 @@ email: false
 jdk:
 - openjdk8
 
-install: ant deps
-
 script: ant build
 
 after_success:
